@@ -6,7 +6,7 @@ import _ from 'lodash';
 const elements = [
 	$('<p>').text('Holberton Dashboard'),
 	$('<p>').text('Dashboard data for the students'),
-	$('<button>').text('Click here to get started').on('click', _.debounce(updateCounter, 1000)),
+	$('<button>').text('Click here to get started').on('click', _.debounce(updateCounter, 500)),
 	$('<p>').attr('id', 'count'),
 	$('<p>').text('Copyright - Holberton School')
 ];
