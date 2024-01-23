@@ -24,7 +24,7 @@ module.exports = {
 				type: 'asset/resource',
 			},
 		],
-	}
+	},
 	plugins: [
 		new MiniCssExtractPlugin({
 			filename: 'styles.css',
